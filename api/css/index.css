@@ -1,0 +1,174 @@
+
+*{
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+
+
+
+body{
+  background-image: url(../img/bd.png );
+  font-family: "Annie Use Your Telescope";
+  font-weight: bolder;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#hoofd{
+float: right; 
+display: flex;
+justify-content: right;
+width: 30%;
+background-color:white ;
+}
+
+
+
+
+.container{
+    width: 100%;
+    height:50px;
+    background-color:white;
+    display:flex;
+    
+}
+
+
+.navbar{
+  
+  color: green;
+}
+
+.navbar li{
+    list-style: none;
+    display:inline-block; 
+width:100px;
+line-height:50px;
+padding-left:10px;
+
+}
+
+.navbar li:hover{
+    background-color:red;
+    color:blue;
+
+.header{
+    text-align:center;
+}
+
+
+.topnav{
+    background-color: blue;
+    text-align: left;
+
+
+}
+
+
+
+
+.card{
+
+    border:2px solid black;
+    width: 600px;
+    float:right;
+    margin-top: 80px;
+    font-size: 20px;
+    height:140px;
+    color: yellow;
+    
+
+}
+
+.cardleft{
+    border:2px solid black;
+    width: 600px;
+    float:left;
+    margin-top: 40px;
+    font-size: 20px;
+    color:yellow;
+    
+
+}
+
+#foto{
+    margin-top: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 10px;
+    float: left;
+    margin-bottom: 2px;
+}
+
+#foto1{
+    padding: 0px;
+    width: 40px;
+    height: 10px;
+    float: right;
+    align-items: right;
+ 
+}
+
+#img{
+    float:left;
+    margin-left: 15%;
+}
+
+#email{
+float :left;
+
+
+}
+
+/* de fletflow:row zorgt ervoor dat alles van A naar B in een rij gaat nomatter what Section1 is van de sectie/dat vak word beinvloed */
+#section1{
+    display: flex;
+    flex-flow: row;
+}
+
+/* is het zelfde als Section1 maar flex-flow: row reverse is van rechts naar links */
+#section2{
+    display: flex;
+    position:fixed;bottom:70px;
+    flex-flow: row-reverse;
+}
+
+footer{
+ display:row;
+   
+ flex-flow:row;
+border:1px solid black;
+ width: 100%;
+ height:50px;
+ position: relative;
+ background-color: rgb(2, 3, 1);
+ clear: both;
+ justify-content: center;
+ display: flex;
+    position:fixed;bottom:0;
+    color:yellow;
+}
+
+.topnav a{ 
+ display:inline;
+    background-color:darkblue;
+    text-decoration: none;
+    padding:14px 16px;
+   
+justify-content: center;
+    color:lightgray;
+    
+    padding-left: 498px;
+}
+
+.topnav a:hover{
+background-color: red;
+color: white;
+}
+
